@@ -4,7 +4,7 @@ An interactive web-based dashboard for analyzing and visualizing student engagem
 
 ## 🌐 Live Demo
 
-Visit the live dashboard at: [https://YOUR_USERNAME.github.io/Student_Engement_Dashboard](https://indhureddy1125.github.io/Student_Engement_Dashboard/)
+Visit the live dashboard at: [Student_Engement_Dashboard](https://indhureddy1125.github.io/Student_Engement_Dashboard/)
 
 ## 🚀 Features
 
