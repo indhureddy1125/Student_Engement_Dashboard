@@ -2,6 +2,10 @@
 
 An interactive web-based dashboard for analyzing and visualizing student engagement metrics across various courses and demographics.
 
+## 🌐 Live Demo
+
+Visit the live dashboard at: [https://YOUR_USERNAME.github.io/Student_Engement_Dashboard](https://indhureddy1125.github.io/Student_Engement_Dashboard/)
+
 ## 🚀 Features
 
 - Real-time Power BI dashboard integration
@@ -55,19 +59,7 @@ An interactive web-based dashboard for analyzing and visualizing student engagem
    - Enable GitHub Pages in repository settings
    - Select main branch as source
 
-## 🌐 Live Demo
-
-Visit the live dashboard at: [https://YOUR_USERNAME.github.io/Student_Engement_Dashboard](https://YOUR_USERNAME.github.io/Student_Engement_Dashboard)
 
 ## 📝 License
 
 Copyright © 2025 Zylentrix Analytics. All rights reserved.
-
-## 👥 Contributors
-
-- Your Name
-- Additional contributors
-
-## 📫 Contact
-
-For queries and support, reach out at: [your.email@example.com]
