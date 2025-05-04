@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Zylentrix Analytics Dashboard</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+</head>
+<body>
+    <header class="hero">
+        <div class="hero-content">
+            <div class="hero-icon">
+                <i class="fas fa-graduation-cap"></i>
+                <i class="fas fa-chart-line"></i>
+                <i class="fas fa-laptop-code"></i>
+            </div>
+            <h1><i class="fas fa-chart-bar"></i> Zylentrix Analytics Dashboard</h1>
+            <p><i class="fas fa-lightbulb"></i> Transforming Education Through Data-Driven Insights</p>
+        </div>
+    </header>
+
+    <main>
+        <section id="dashboard" class="dashboard-section">
+            <iframe title="Zylentrix" 
+                src="https://app.powerbi.com/view?r=eyJrIjoiODI1ZTQ5M2QtNTZiYS00ODkwLWI5MjQtYTQwODk1ZDU0NmM1IiwidCI6IjM0YmQ4YmVkLTJhYzEtNDFhZS05ZjA4LTRlMGEzZjExNzA2YyJ9" 
+                frameborder="0" allowFullScreen="true">
+            </iframe>
+        </section>
+
+        <section id="overview" class="overview-section">
+            <div class="section-header">
+                <h2><i class="fas fa-analytics"></i> Learning Analytics Overview</h2>
+            </div>
+            <div class="metrics-grid">
+                <div class="metric-card">
+                    <i class="fas fa-graduation-cap"></i>
+                    <div class="metric-value">54.78%</div>
+                    <div class="metric-label">Completion Rate</div>
+                    <div class="metric-trend positive">↑ 2.3%</div>
+                </div>
+                <div class="metric-card">
+                    <i class="fas fa-clock"></i>
+                    <div class="metric-value">102.43</div>
+                    <div class="metric-label">Highest Engagement (Minutes)</div>
+                </div>
+                <div class="metric-card">
+                    <i class="fas fa-users"></i>
+                    <div class="metric-value">20-25</div>
+                    <div class="metric-label">Most Engaged Age Group</div>
+                </div>
+            </div>
+            
+            <div class="content">
+                <h3>Key Performance Indicators</h3>
+                <ul>
+                    <li><strong>Course Progress:</strong> Students show consistent improvement across all modules</li>
+                    <li><strong>Engagement Metrics:</strong> Average daily active time exceeds 95 minutes</li>
+                    <li><strong>Regional Performance:</strong> Northern regions show 15% higher engagement</li>
+                </ul>
+            </div>
+        </section>
+
+        <section id="analysis" class="analysis-section">
+            <div class="section-header">
+                <h2><i class="fas fa-magnifying-glass-chart"></i> Analysis & Insights</h2>
+            </div>
+            <div class="content">
+                <h3>Executive Summary</h3>
+                <ul>
+                    <li><strong>Objective:</strong> Analyze student engagement and satisfaction across courses.</li>
+                    <li><strong>Data Sources:</strong> Student demographics, course activity, feedback ratings.</li>
+                    <li><strong>Tools Used:</strong> Python (Pandas, Seaborn), visualization, descriptive analytics, Google Colab, Power BI.</li>
+                    <li><strong>Goal:</strong> Identify patterns and suggest actionable improvements.</li>
+                </ul>
+
+                <h3>Key Insights</h3>
+                <ul>
+                    <li><strong>Moderate Completion Rate:</strong> Average course completion is 54.78%.</li>
+                    <li><strong>Course Engagement Variation:</strong> DM101 has the highest engagement (102.43 mins), while PY202 has the lowest (93.90 mins).</li>
+                    <li><strong>Younger Students Engage More:</strong> Students aged 20–25 engage the most (~102 mins), with a decline in older groups.</li>
+                    <li><strong>Location Affects Engagement:</strong> Kolkata (104.38 mins) and Delhi (103.30 mins) have the highest engagement, while Chennai has the lowest (~90.95 mins).</li>
+                    <li><strong>Low Correlation Between Completion and Satisfaction:</strong> Completion rate and satisfaction have a weak correlation (-0.05).</li>
+                </ul>
+
+                <h3>Strategic Recommendations</h3>
+                <ul>
+                    <li><strong>Support for Low-Engagement Courses:</strong> Improve instructional design for PY202 and similar low-engagement courses.</li>
+                    <li><strong>Age-Specific Strategies:</strong> Tailor course content and interactions to different age groups, focusing on re-engaging older learners.</li>
+                    <li><strong>Regional Engagement Programs:</strong> Replicate successful engagement strategies from Delhi and Kolkata in lower performing areas like Chennai.</li>
+                </ul>
+            </div>
+        </section>
+    </main>
+    <footer>
+        <p>&copy; 2025 Zylentrix Analytics | All Rights Reserved</p>
+    </footer>
+</body>
+</html>
